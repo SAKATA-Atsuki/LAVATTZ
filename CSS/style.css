@@ -12,15 +12,17 @@ img {
 #home {
     background-image: url(../images/テニスコート.jpg);
     background-size: cover;
-    min-height: 100vh;
+    background-repeat: no-repeat;
 }
 header {
     background-color: #fffac2;
+    border-radius: 10px;
     margin-top: 15px;
 }
 .logo {
     height: 50px;
 }
+/*HOME-CONTENT----------------------------------------*/
 .home-content h1 {
     color: white;
     text-align: center;
@@ -36,4 +38,19 @@ header {
     font-weight: bolder;
     letter-spacing: 5px;
     margin-top: 50px;
+}
+/*MENU----------------------------------------*/
+.menu {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.menu a {
+    color: white;
+    background-color: #0bd;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 5px;
 }
