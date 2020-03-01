@@ -1,0 +1,25 @@
+/*共通部分----------------------------------------*/
+html {
+    font-size: 100%;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+/*HEADER----------------------------------------*/
+#home {
+    background-image: url(../images/LAVATTZ.jpg);
+}
+.big-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    background-color: antiquewhite;
+    margin-top: 10px;
+}
+.logo {
+    height: 50px;
+}
