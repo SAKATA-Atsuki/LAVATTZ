@@ -10,16 +10,30 @@ img {
 }
 /*HEADER----------------------------------------*/
 #home {
-    background-image: url(../images/LAVATTZ.jpg);
-}
-.big-bg {
+    background-image: url(../images/テニスコート.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 header {
-    background-color: antiquewhite;
-    margin-top: 10px;
+    background-color: #fffac2;
+    margin-top: 15px;
 }
 .logo {
     height: 50px;
+}
+.home-content h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    margin-top: 50px;
+}
+.home-content p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    margin-top: 50px;
 }
