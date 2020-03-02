@@ -14,6 +14,9 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
 }
+#event {
+    background-image: url(../images/芝生.jpg);
+}
 header {
     background-color: #fffac2;
     border-radius: 10px;
@@ -22,8 +25,8 @@ header {
 .logo {
     height: 50px;
 }
-/*HOME-CONTENT----------------------------------------*/
-.home-content h1 {
+/*HOME-MAIN----------------------------------------*/
+.home-main h1 {
     color: white;
     text-align: center;
     font-size: 50px;
@@ -31,13 +34,13 @@ header {
     letter-spacing: 5px;
     margin-top: 50px;
 }
-.home-content p {
+.home-main p {
     color: white;
     text-align: center;
     font-size: 25px;
     font-weight: bolder;
     letter-spacing: 5px;
-    margin-top: 50px;
+    margin: 50px 0;
 }
 /*MENU----------------------------------------*/
 .menu {
@@ -53,4 +56,64 @@ header {
     font-size: 25px;
     font-weight: bolder;
     letter-spacing: 5px;
-} 
+}
+/*EVENT-HEADER----------------------------------------*/
+.event-header {
+    margin-top: 15px;
+}
+.LAVATTZ {
+    background-size: cover;
+}
+/*EVENT-LIST----------------------------------------*/
+.event-list {
+    margin: 0 1px 15px 1px;
+}
+.event-title {
+    text-align: center;
+    margin: 50px 0;
+    background-color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    border-radius: 100px;
+}
+.even-month {
+    color: white;
+    background-color: rgb(227, 176, 244);
+    font-size: 25px;
+    margin: 0;
+}
+.even-event {
+    color: black;
+    background-color: rgb(238, 215, 246);
+    font-size: 25px;
+    margin: 0;
+}
+.odd-month {
+    color: white;
+    background-color: rgb(85, 145, 196);
+    font-size: 25px;
+    margin: 0;
+}
+.odd-event {
+    color: black;
+    background-color: rgb(216, 231, 242);
+    font-size: 25px;
+    margin: 0;
+}
+/*EVENT-IMAGE----------------------------------------*/
+.event-image {
+    margin-bottom: 35px;
+}
+.event-image img {
+    margin-bottom: 15px;
+}
+/*FOOTER----------------------------------------*/
+footer {
+    background-color: #432;
+    text-align: center;
+    padding: 26px 0 16px 0;
+}
+footer p {
+    color: #fff;
+    font-size: 0.875rem;
+}
