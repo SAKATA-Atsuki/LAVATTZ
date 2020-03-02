@@ -107,6 +107,7 @@ header {
 .event-image img {
     margin-bottom: 15px;
     background-size: cover;
+    width: 100%;
 }
 /*FOOTER----------------------------------------*/
 footer {
