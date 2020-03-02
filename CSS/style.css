@@ -102,12 +102,20 @@ header {
 }
 /*EVENT-IMAGE----------------------------------------*/
 .event-image {
-    margin-bottom: 35px;
+    margin-bottom: 45px;
 }
 .event-image img {
-    margin-bottom: 15px;
-    background-size: cover;
-    width: 100%;
+    width: 33%;
+    padding: 5px;
+}
+@media (max-width: 991px) {
+    .event-image {
+        margin-bottom: 35px;
+    }
+    .event-image img {
+        width: 100%;
+        padding: 0 0 15px 0;
+    }
 }
 /*FOOTER----------------------------------------*/
 footer {
