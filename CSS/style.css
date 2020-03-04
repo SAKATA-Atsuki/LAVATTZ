@@ -8,15 +8,13 @@ a {
 img {
     max-width: 100%;
 }
-/*HEADER----------------------------------------*/
+/*HOME----------------------------------------*/
 #home {
     background-image: url(../images/テニスコート.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-#event {
-    background-image: url(../images/芝生.jpg);
-}
+/*HEADER----------------------------------------*/
 header {
     background-color: #fffac2;
     border-radius: 10px;
@@ -57,12 +55,17 @@ header {
     font-weight: bolder;
     letter-spacing: 5px;
 }
+/*EVENT----------------------------------------*/
+#event {
+    background-image: url(../images/芝生.jpg);
+}
 /*EVENT-HEADER----------------------------------------*/
 .event-header {
     margin-top: 15px;
 }
 .LAVATTZ {
     background-size: cover;
+    border-radius: 10px;
 }
 /*EVENT-LIST----------------------------------------*/
 .event-list {
@@ -121,9 +124,102 @@ header {
 footer {
     background-color: #432;
     text-align: center;
-    padding: 26px 0 16px 0;
+    padding: 25px 0 15px 0;
 }
 footer p {
     color: #fff;
     font-size: 0.875rem;
+}
+/*CONTACT----------------------------------------*/
+#contact {
+    background-color: #ffe0b6;
+}
+/*FORM----------------------------------------*/
+.form {
+    background-image: url(../images/コンタクト.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+form div {
+    margin: 25px 0;
+}
+label {
+    font-size: 1.125rem;
+    display: block;
+    font-weight: bolder;
+    text-shadow: 0 1px white, 1px 1px white, 1px 0 white, 1px -1px white,
+    0 -1px white, -1px -1px white, -1px 0 white, -1px 1px white;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: rgba(225, 225, 225, .5);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    max-width: 270px;
+}
+input[type="submit"] {
+    margin: 10px 0 15px 0;
+}
+/*LOCATION----------------------------------------*/
+#location {
+    display: flex;
+    justify-content: space-between;
+}
+.location-info h3 {
+    border-bottom: 2px solid blue;
+}
+.location-info {
+    width: 30%;
+    padding: 50px;
+}
+.location-map {
+    width: 70%;
+    padding-top: 50px;
+}
+iframe {
+    width: 100%;
+}
+@media (max-width: 991px) {
+    #location {
+        display: block;
+        margin-top: 50px;
+    }
+    .location-info {
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+    }
+    .location-map {
+        width: 100%;
+        padding: 0;
+    }
+    iframe {
+        width: 100%;
+    }
+}
+/*TWITTER----------------------------------------*/
+.twitter {
+    margin: 50px 110px 45px 110px;
+    text-align: center;
+}
+.twitter h2 {
+    border-bottom: 2px solid blue;
+}
+@media (max-width: 991px) {
+    .twitter {
+        margin: 50px 5px 45px 5px;
+        text-align: center;
+    }
+    .twitter h2 {
+        border-bottom: 2px solid blue;
+    }    
 }
