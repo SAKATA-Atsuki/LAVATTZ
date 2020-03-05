@@ -55,15 +55,101 @@ header {
     font-weight: bolder;
     letter-spacing: 5px;
 }
+/*INTRODUCTION----------------------------------------*/
+#introduction {
+    background-color: #eaf6fd;
+}
+/*INTRODUCTION-HEADER----------------------------------------*/
+.introduction-header img {
+    margin: 15px 0;
+    background-size: cover;
+    border-radius: 10px;
+}
+/*INTRODUCTION-OL----------------------------------------*/
+.introduction-ol {
+    background-image: url(../images/フェンス.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 20px 0 1px 0;
+    margin-bottom: 15px;
+}
+.introduction-li {
+    display: flex;
+    margin: 30px 100px;
+}
+.introduction-li p {
+    background-color: #00acee;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+}
+.introduction-li span {
+    color: red;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-shadow: 0 2px white, 2px 2px white, 2px 0 white, 2px -2px white,
+    0 -2px white, -2px -2px white, -2px 0 white, -2px 2px white;
+}
+@media (max-width: 991px) {
+    .introduction-li {
+        margin: 5px;
+    }
+    .introduction-li p {
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        padding-top: 5px;
+    }
+    .introduction-li span {
+        font-size: 13px;
+        margin-left: 5px;
+        text-shadow: 0 1px white, 1px 1px white, 1px 0 white, 1px -1px white,
+        0 -1px white, -1px -1px white, -1px 0 white, -1px 1px white;    
+    }    
+}
+/*CAMP----------------------------------------*/
+.camp {
+    display: flex;
+    margin-bottom: 50px;
+}
+.camp img {
+    width: 50%;
+    padding: 0 10px;
+}
+@media (max-width: 991px) {
+    .camp {
+        display: block;
+        margin-bottom: 35px;
+    }
+    .camp img {
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 15px;
+    }    
+}
+/*FOOTER----------------------------------------*/
+footer {
+    background-color: #432;
+    text-align: center;
+    padding: 25px 0 15px 0;
+}
+footer p {
+    color: #fff;
+    font-size: 0.875rem;
+}
 /*EVENT----------------------------------------*/
 #event {
     background-image: url(../images/芝生.jpg);
 }
 /*EVENT-HEADER----------------------------------------*/
-.event-header {
+.event-header img {
     margin-top: 15px;
-}
-.LAVATTZ {
     background-size: cover;
     border-radius: 10px;
 }
@@ -120,19 +206,9 @@ header {
         padding: 0 0 15px 0;
     }
 }
-/*FOOTER----------------------------------------*/
-footer {
-    background-color: #432;
-    text-align: center;
-    padding: 25px 0 15px 0;
-}
-footer p {
-    color: #fff;
-    font-size: 0.875rem;
-}
 /*CONTACT----------------------------------------*/
 #contact {
-    background-color: #ffe0b6;
+    background-color: #e2eba3;
 }
 /*FORM----------------------------------------*/
 .form {
@@ -175,7 +251,7 @@ input[type="submit"] {
     justify-content: space-between;
 }
 .location-info h3 {
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid #00acee;
 }
 .location-info {
     width: 30%;
@@ -212,7 +288,7 @@ iframe {
     text-align: center;
 }
 .twitter h2 {
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid #00acee;
 }
 @media (max-width: 991px) {
     .twitter {
@@ -220,6 +296,6 @@ iframe {
         text-align: center;
     }
     .twitter h2 {
-        border-bottom: 2px solid blue;
+        border-bottom: 2px solid #00acee;
     }    
 }
