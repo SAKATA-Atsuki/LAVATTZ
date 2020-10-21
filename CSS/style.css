@@ -219,11 +219,14 @@ footer p {
     margin: 15px 0;
     border-radius: 10px;
 }
-.stop {
+.form h1 {
     color: yellow;
     font-weight: bold;
     text-shadow: 0 1px red, 1px 1px red, 1px 0 red, 1px -1px red,
     0 -1px red, -1px -1px red, -1px 0 red, -1px 1px red;
+}
+.line {
+    height: 200px;
 }
 form div {
     margin: 25px 0;
